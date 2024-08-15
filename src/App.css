@@ -1,0 +1,26 @@
+body{
+  background: url(https://t4.ftcdn.net/jpg/08/87/23/07/360_F_887230782_xE6tJtfVstIDWTF52DS2eeM26UNFs7jJ.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1{
+  font-size: 70px;
+  margin: 10px;
+}
+button{
+ margin: 40px 5px;
+ padding: 13px;
+ font-size: 22px;
+}
+
+.temp-box{
+  margin-top: 5em;
+  text-align: center;
+}
+
+.main{
+  text-align: center;
+}
