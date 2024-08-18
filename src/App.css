@@ -1,3 +1,4 @@
+
 body{
   background: url(https://t4.ftcdn.net/jpg/08/87/23/07/360_F_887230782_xE6tJtfVstIDWTF52DS2eeM26UNFs7jJ.jpg);
   height: 100vh;
@@ -7,18 +8,70 @@ body{
 }
 
 h1{
-  font-size: 70px;
+  font-size: 100px;
   margin: 10px;
 }
-button{
- margin: 40px 5px;
- padding: 13px;
- font-size: 22px;
+
+.location{
+	font-size: 2em;
+}
+.button-deco{
+  background-color:transparent;
+	border-radius:29px;
+	border:2px solid #3571d9;
+	display:inline-block;
+	cursor:pointer;
+	color:#3571d9;
+	font-family:Arial;
+	font-size:18px;
+  margin: 25px 6px;
+	padding:12px 21px;
+	text-decoration:none;
+}
+.button-deco:hover{
+	background-color:#3571d9;
+	color:#ffffff;
+	
+}
+.click-button{
+	background-color:#3571d9;
+	color:#ffffff;
+	
 }
 
+.container{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	margin:12px
+}
+.btn-deco{
+	margin: 30px;
+
+}
+
+.select{
+	
+	background-color:#3571d9;
+	color:#ffffff;
+		
+}
+
+.big-font{
+	font-size: 70px;
+	font-weight: bold;
+}
 .temp-box{
+	border-radius: 30px;
+	width: 50%;
+	max-width: 440px;
+	min-width: 380px;
+	border: 1px solid white;
   margin-top: 5em;
   text-align: center;
+  padding: 50px;
 }
 
 .main{
